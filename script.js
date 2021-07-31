@@ -10,7 +10,7 @@ function scrollFunction() {
         document.querySelector(".navbar").style.padding = "30px 10px";
         document.querySelector("img").style.width = "100px";
         document.querySelector("img").style.transition = "1s";
-        document.querySelector(".nav-under").style.opacity = "100%";
+        document.querySelector(".nav-under").style.opacity = "95%";
         document.querySelectorAll(".nav-ul").forEach((item) => {
             item.style.visibility = "visible";
             item.style.opacity = "100%";

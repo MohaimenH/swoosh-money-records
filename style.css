@@ -16,11 +16,12 @@ section {
 video {
     /* filter: grayscale(100%) brightness(15%); */
     position: absolute;
+    object-fit: cover;
     right: 0;
     bottom: 0;
     width: 100%;
-    z-index: -500;
-    /* height: 100vh; */
+    z-index: 0;
+    height: 100vh;
 }
 
 nav {
